@@ -1,5 +1,5 @@
 <template>
   <div>
-    <p>Cultural NewsLetter</p>
+    <p>Cultural Newsletter</p>
   </div>
 </template>
