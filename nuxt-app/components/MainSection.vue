@@ -50,7 +50,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 32px;
+    margin: 32px;
+    gap: 10px;
 }
 
 .cta-button {
