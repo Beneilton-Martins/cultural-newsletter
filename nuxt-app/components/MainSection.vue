@@ -1,4 +1,3 @@
-<!-- MainSection.vue -->
 <template>
     <div class="hero-section">
         <h1>Minha Página Inicial</h1>

@@ -1,12 +1,12 @@
+<script setup lang="ts">
+</script>
+
 <template>
     <div class="background">
         <MainNavbar />
         <MainSection />
     </div>
 </template>
-  
-<script setup lang="ts">
-</script>
 
 <style scoped>
 .background {
