@@ -1,5 +1,3 @@
-<!-- index.vue -->
-
 <template>
     <div>
         <Navbar />
@@ -11,4 +9,6 @@
 import Navbar from '@/components/NavbarVue.vue'
 import MainSection from '@/components/MainSection.vue'
 </script>
-  
+
+<style scoped>
+</style>

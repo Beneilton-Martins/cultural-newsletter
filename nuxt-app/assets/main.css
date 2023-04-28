@@ -1,9 +1,9 @@
 @import "../assets/css/variables.css";
 
 header {
-  background-color: var(--cor-azul);
+  background-color: var(--color-blue);
 }
 
 button {
-  background-color: var(--cor-verde);
+  background-color: var(--color-green);
 }

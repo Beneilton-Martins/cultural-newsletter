@@ -1,27 +1,43 @@
-<!-- Navbar.vue -->
-
 <template>
+  <div>
     <nav class="navbar">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="#">
-          PLANO K
-        </a>
-      </div>
+      <div class="navbar-brand">Project K</div>
       <div class="navbar-menu">
-        <div class="navbar-end">
-          <a class="navbar-item" href="#">Link 1</a>
-          <a class="navbar-item" href="#">Link 2</a>
-          <a class="navbar-item" href="#">Link 3</a>
-          <a class="navbar-item" href="#">Link 4</a>
-        </div>
+        <a href="#" class="navbar-item">Início</a>
+        <a href="#" class="navbar-item">Notícias</a>
+        <a href="#" class="navbar-item">Contato</a>
       </div>
     </nav>
-  </template>
-  
-  <style scoped>
-  .navbar {
-    background-color: var(--color-blue);
-    color: white;
-  }
-  </style>
-  
+  </div>
+</template>
+
+<style scoped>
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #38ABC8;
+  color: #FFFFFF;
+  padding: 16px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 16px;
+}
+
+.navbar-item {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+</style>
+

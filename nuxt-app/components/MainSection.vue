@@ -1,33 +1,42 @@
 <!-- MainSection.vue -->
-
 <template>
-    <div class="main-section">
-      <h1 class="title">Bem-vindo ao meu site</h1>
-      <p class="subtitle">Este é um site incrível sobre coisas incríveis</p>
-      <button class="button is-primary">Chame para uma ação</button>
+    <div class="hero-section">
+        <h1>Minha Página Inicial</h1>
+        <p>Bem-vindo ao meu site!</p>
+        <button class="cta-button">Saiba mais</button>
     </div>
-  </template>
+</template>
   
-  <style scoped>
-  .main-section {
-    background-color: white;
-    padding: 2rem;
-    margin-top: 2rem;
-  }
-  
-  .title {
-    font-size: 3rem;
+<style scoped>
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.hero-section h1 {
+    font-size: 36px;
     font-weight: bold;
-  }
-  
-  .subtitle {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-  }
-  
-  .button {
-    background-color: #8FD8A0;
-    border-color: #8FD8A0;
-    margin-top: 2rem;
-  }
-  </style>  
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.hero-section p {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.cta-button {
+    background-color: var(--color-green);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+</style>  
