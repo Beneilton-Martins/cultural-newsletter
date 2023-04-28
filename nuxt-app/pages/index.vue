@@ -1,12 +1,14 @@
-<script lang="ts" setup>
-
-</script>
+<!-- index.vue -->
 
 <template>
     <div>
+        <Navbar />
+        <MainSection />
     </div>
 </template>
-
-<style scoped>
-
-</style>
+  
+<script setup lang="ts">
+import Navbar from '@/components/NavbarVue.vue'
+import MainSection from '@/components/MainSection.vue'
+</script>
+  
