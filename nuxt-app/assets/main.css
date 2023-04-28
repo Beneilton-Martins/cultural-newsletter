@@ -29,4 +29,10 @@ header {
 
 button {
   background-color: var(--color-green);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
 }

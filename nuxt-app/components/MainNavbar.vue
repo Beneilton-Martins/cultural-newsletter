@@ -22,7 +22,6 @@
 }
 
 .navbar-brand {
-  font-size: 24px;
   font-weight: bold;
 }
 
@@ -32,7 +31,6 @@
 }
 
 .navbar-item {
-  font-size: 18px;
   font-weight: bold;
   color: #FFFFFF;
   text-decoration: none;
