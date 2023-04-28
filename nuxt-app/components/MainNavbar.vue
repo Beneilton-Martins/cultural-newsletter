@@ -18,7 +18,7 @@
   align-items: center;
   background-color: #38ABC8;
   color: #FFFFFF;
-  padding: 16px;
+  padding: 16px 32px;
 }
 
 .navbar-brand {

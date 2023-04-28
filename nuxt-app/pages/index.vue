@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="background">
         <MainNavbar />
         <MainSection />
     </div>
@@ -9,4 +9,9 @@
 </script>
 
 <style scoped>
+.background {
+    background-color: white;
+    height: 100vh;
+    margin: 32px;
+}
 </style>
