@@ -1,6 +1,6 @@
 @import "../assets/css/variables.css";
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
 
 * {
   margin: 0;
@@ -13,7 +13,9 @@ body {
   background-color: var(--color-green);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
 }
@@ -35,4 +37,31 @@ button {
   padding: 8px 16px;
   cursor: pointer;
   font-weight: bold;
+}
+
+/* Média Query */
+
+/* Estilos para telas com no mínimo 600px de largura */
+@media only screen and (min-width: 600px) {
+  /* Coloque seus estilos aqui */
+}
+
+/* Estilos para telas com no mínimo 768px de largura */
+@media only screen and (min-width: 768px) {
+  /* Coloque seus estilos aqui */
+}
+
+/* Estilos para telas com no mínimo 992px de largura */
+@media only screen and (min-width: 992px) {
+  /* Coloque seus estilos aqui */
+}
+
+/* Estilos para telas com no mínimo 1200px de largura */
+@media only screen and (min-width: 1200px) {
+  /* Coloque seus estilos aqui */
+}
+
+/* Estilos para telas com largura acima de 1400px */
+@media only screen and (min-width: 1400px) {
+  /* Coloque seus estilos aqui */
 }
