@@ -2,10 +2,10 @@
 const isMenuOpen = ref(false)
 
 function toggleMenu() {
-  const navbarMenu = document.querySelector('.navbar-menu')
+  const navbarMenu : Element | null = document.querySelector('.navbar-menu')
   if (isMenuOpen.value) {
     isMenuOpen.value = false
-    navbarMenu.classList.remove('open')
+    navbarMenu.classList.remove('open') 
   } else {
     isMenuOpen.value = true
     navbarMenu.classList.add('open')
@@ -18,9 +18,9 @@ function toggleMenu() {
     <nav class="navbar">
       <div class="menu-toggle" @click="toggleMenu"> Project K </div>
       <div class="navbar-menu">
-        <a href="#" class="navbar-item">Início</a>
-        <a href="#" class="navbar-item">Notícias</a>
-        <a href="#" class="navbar-item">Contato</a>
+        <a href="#" class="navbar-item"> Início</a>
+        <a href="#" class="navbar-item"> Notícias</a>
+        <a href="#" class="navbar-item"> Contato</a>
       </div>
     </nav>
   </div>
@@ -31,7 +31,7 @@ function toggleMenu() {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #38ABC8;
+  background-color: var(--color-blue);
   color: #FFFFFF;
   padding: 16px 32px;
 }
@@ -52,7 +52,6 @@ function toggleMenu() {
   color: #FFFFFF;
   text-decoration: none;
   padding: 8px;
-  border-radius: 4px;
 }
 
 @media (max-width: 600px) {

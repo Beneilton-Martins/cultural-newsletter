@@ -12,6 +12,5 @@
 .background {
     background-color: white;
     height: 100vh;
-    margin: 8px;
 }
 </style>
