@@ -2,13 +2,13 @@
 const isMenuOpen = ref(false)
 
 function toggleMenu() {
-  const navbarMenu: Element | null = document.querySelector('.navbar-menu')
+  const navbarMenu = document.querySelector('.navbar-menu')
   if (isMenuOpen.value) {
     isMenuOpen.value = false
-    navbarMenu.classList.remove('open')
+    navbarMenu?.classList.remove('open')
   } else {
     isMenuOpen.value = true
-    navbarMenu.classList.add('open')
+    navbarMenu?.classList.add('open')
   }
 }
 </script>
