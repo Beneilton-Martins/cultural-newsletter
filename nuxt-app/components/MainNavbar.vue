@@ -45,7 +45,6 @@ function toggleMenu() {
 
 .navbar-menu {
   display: flex;
-  gap: 16px;
   background-color: var(--color-blue);
   user-select: none;
 }
@@ -61,25 +60,33 @@ function toggleMenu() {
   .navbar-menu {
     flex-direction: column;
     align-items: flex-start;
+    justify-content: stretch;
     position: fixed;
-    top: calc(0% + 60px);
+    top: calc(0% + 52px);
     bottom: 0;
     left: -100%;
-    width: 50%;
+    width: 80%;
     z-index: 1;
-    transition: left 0.3s ease-in-out;
+    transition: left 0.5s ease-in-out;
+    
   }
 
   nav .open {
     left: 0;
+    display: flex;
+    align-items: stretch;
   }
 
   .menu-toggle {
     display: block;
+    
   }
 
   .navbar-item {
+    display: flex;
+    justify-content: stretch;
     padding: 16px 32px;
+    border-bottom: solid 1px;
     
   }
 }
