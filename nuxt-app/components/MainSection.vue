@@ -1,8 +1,8 @@
 <template>
     <div class="hero-section">
-        <h1> Minha Página Inicial </h1>
-        <p> Bem-vindo ao meu site! </p>
-        <button> Saiba mais </button>
+        <h1> Cyperus Papys </h1>
+        <p> Cyper, Yrus e a miopia dos desinformados </p>
+        <button> Desmiopitizesse </button>
     </div>
 </template>
   
