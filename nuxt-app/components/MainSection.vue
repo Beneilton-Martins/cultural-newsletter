@@ -1,8 +1,8 @@
 <template>
     <div class="hero-section">
         <h1> Minha Página Inicial </h1>
-        <p>Bem-vindo ao meu site!</p>
-        <button>Saiba mais</button>
+        <p> Bem-vindo ao meu site! </p>
+        <button> Saiba mais </button>
     </div>
 </template>
   

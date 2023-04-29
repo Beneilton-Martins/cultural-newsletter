@@ -1,7 +1,22 @@
+<script setup lang="ts">
+const isMenuOpen = ref(false)
+
+function toggleMenu() {
+  const navbarMenu = document.querySelector('.navbar-menu')
+  if (isMenuOpen.value) {
+    isMenuOpen.value = false
+    navbarMenu.classList.remove('open')
+  } else {
+    isMenuOpen.value = true
+    navbarMenu.classList.add('open')
+  }
+}
+</script>
+
 <template>
   <div>
     <nav class="navbar">
-      <div class="navbar-brand">Project K</div>
+      <div class="menu-toggle" @click="toggleMenu"> ProjectK </div>
       <div class="navbar-menu">
         <a href="#" class="navbar-item">Início</a>
         <a href="#" class="navbar-item">Notícias</a>
@@ -21,13 +36,15 @@
   padding: 16px 32px;
 }
 
-.navbar-brand {
+.menu-toggle {
   font-weight: bold;
+  cursor: pointer;
 }
 
 .navbar-menu {
   display: flex;
   gap: 16px;
+  background-color: black;
 }
 
 .navbar-item {
@@ -36,5 +53,25 @@
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+  .navbar-menu {
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: calc(100% - 100px);
+    bottom: 0;
+    left: -100%;
+    width: 50%;
+    z-index: 1;
+    transition: left 0.3s ease-in-out;
+  }
+  nav .open {
+    left: 0;
+  }
+  .menu-toggle {
+    display: block;
+  }
 }
 </style>

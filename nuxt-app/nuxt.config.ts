@@ -2,5 +2,8 @@
 export default defineNuxtConfig({
     css: [
         '@/assets/main.css'
-    ]
+    ],
+    build: {
+        transpile: ['@ionic/vue'],
+    },
 })
