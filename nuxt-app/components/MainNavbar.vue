@@ -16,7 +16,7 @@ function toggleMenu() {
 <template>
   <div>
     <nav class="navbar">
-      <div class="menu-toggle" @click="toggleMenu"> ProjectK </div>
+      <div class="menu-toggle" @click="toggleMenu"> Project K </div>
       <div class="navbar-menu">
         <a href="#" class="navbar-item">Início</a>
         <a href="#" class="navbar-item">Notícias</a>
@@ -44,7 +44,7 @@ function toggleMenu() {
 .navbar-menu {
   display: flex;
   gap: 16px;
-  background-color: black;
+  background-color: var(--color-blue);
 }
 
 .navbar-item {
@@ -58,9 +58,9 @@ function toggleMenu() {
 @media (max-width: 600px) {
   .navbar-menu {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     position: fixed;
-    top: calc(100% - 100px);
+    top: calc(0% + 60px);
     bottom: 0;
     left: -100%;
     width: 50%;
