@@ -7,8 +7,7 @@
         <img src="../public/mole.jpg" alt="topeira">
         <h2> Projeto em Construção </h2>
         <p> Tenha Paciência </p>
-        <p> Tudo nesse tela é apenas experimental </p>
-
+        <p> Tudo nessa tela é apenas experimental </p>
     </div>
 </template>
   
